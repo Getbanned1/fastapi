@@ -1,4 +1,4 @@
 fastapi
 uvicorn
 transformers
-tensorflow
+tensorflow==2.11.0  
