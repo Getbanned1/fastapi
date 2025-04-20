@@ -41,7 +41,6 @@ async def ai_gateway(
 ):
     #if not authorization or not authorization.startswith("Bearer "):
     #    raise HTTPException(status_code=401, detail="Unauthorized")
-
     task = body.parameters.task
     model = body.model
     inputs = body.inputs
