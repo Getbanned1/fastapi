@@ -1,4 +1,5 @@
-fastapi
-uvicorn
-transformers
-torch
+fastapi==0.74.*
+uvicorn[standard]==0.17.*
+transformers==4.*
+torch==1.11.*
+sentencepiece==0.1.*
