@@ -8,9 +8,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "api/main.py",
-        "srcs": "/ai-gateway", 
-        "dests": "api/ai-gateway.py"
+        "dest": "api/main.py"
       }
       
     ]
