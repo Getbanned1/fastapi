@@ -64,4 +64,4 @@ async def ai_gateway(
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Inference error: {str(e)}")
 
-    return {output}
+    return {"result": output}
